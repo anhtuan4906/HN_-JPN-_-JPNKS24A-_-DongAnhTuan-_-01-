@@ -49,10 +49,15 @@ int main(){
                     }
                 }    
                 printf("Gia tri lon nhat cua mang: %d\n", max);
+
+                int min = arr[0]
+                 for (int i = 1; i < n; i++) {
+                    if (arr[i] < min) {
+                        min = arr[i];
+                printf("Gia tri nho nhat cua mang: %d\n", min);
+                    }
+                }    
                 break;
-                
-				int min = arr[0];
-				for (int i =)
 		case 4: 
 
 		case 5: 
@@ -104,3 +109,7 @@ int main(){
 	
 	return 0;
 }
+
+	
+               
+           
