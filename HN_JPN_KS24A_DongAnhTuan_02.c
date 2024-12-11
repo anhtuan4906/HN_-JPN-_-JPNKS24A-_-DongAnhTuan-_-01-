@@ -97,7 +97,7 @@ int main(){
             }
             printf("\n");
             break;              
-        case 6 : // Xoa 1 phan tu 
+        case 6 :  
             printf(" Nhap vao vi tri arr[] ban muon xoa\n");
             scanf("%lld",&pos );
             if( pos<0 || pos>n){
@@ -128,7 +128,7 @@ int main(){
                 printf("%lld\t", arr[i]);
             }
             printf("\n");
-        case 8 : // Tim kiem phan tu trong mang(Binary search)
+        case 8 : 
             printf(" Nhap gia tri ban muon tim \n");
             scanf(" %lld", &value);
             if( binary_search(arr, n, value)){
